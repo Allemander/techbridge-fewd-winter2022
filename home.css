@@ -1,0 +1,63 @@
+body { background-color: #FFFFFF; 
+    color: #666666; 
+    font-family: Arial, Verdana, sans-serif; 
+    background-image: url(bookstore.jpg);
+    background-repeat: no-repeat;
+	
+    padding-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+}
+ 
+.home_h1 {
+	font-weight: bold;
+	letter-spacing: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: 100px;
+	float: left;
+	background-color: #fadadd;
+	opacity: .6;
+	border-width: 5px;
+	border-style: double;
+	border-color: #515151;
+}
+
+.home_h1 a { color: #515151;
+	text-decoration: none;
+	opacity: 1;
+}
+
+.home_h1:hover a {
+	color: #2d9ab7;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #111111;
+  }
+  
+  .active {
+	background-color: #04AA6D;
+  }

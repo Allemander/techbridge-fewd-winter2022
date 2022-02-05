@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border: 1px solid black;
+}
+
+ .bName {
+    color: white;
+    text-align: center;
+    background-color: gray;
+}
+
+.bImage {
+    background-color: #555555;
+    height: 100px;
+}
