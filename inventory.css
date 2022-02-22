@@ -1,25 +1,29 @@
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    border: 1px solid black;
-}
-
- .bName {
-    color: white;
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+  }
+tr:nth-child(even) {background-color: #f2f2f2;
+  }
+tr:nth-child(odd) {background-color: #aaa1a1;
+  }
+body {
+    background-color: #521212;
+  }
+h1 {
+    padding-top: 50px;
+    font-size: 50px;
     text-align: center;
-    background-color: gray;
+    color: #ffffff;
+  }
+.header {
+    width: 100%;
+    background-color: #091d33;
+    padding-bottom: 50px;
+    border-style: ridge;
+    border-color: #FFFFFF;
+    border-width: medium;
 }
-
-.bImage {
-    background-color: #555555;
-    height: 100px;
+table {
+    width: 100%;
+    margin-top: 25px;
 }
